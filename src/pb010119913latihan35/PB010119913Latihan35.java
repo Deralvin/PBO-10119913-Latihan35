@@ -13,12 +13,12 @@ package pb010119913latihan35;
  */
 public class PB010119913Latihan35 {
  public static void main(String[] args) {
-	User karyawan = new User();
+	User gaji = new User();
 	System.out.println("==========Program Tunjangan==========");
-	Double gajipokokKaryawan = karyawan.getGajipokok();
-	String statusKaryawan = karyawan.getStatus();
-    Double tunjanganKaryawan = karyawan.hitungTunjangan(statusKaryawan);
-    Double totalGaji = karyawan.setTotal();
+	Double gajipokokKaryawan = gaji.getGajipokok();
+	String statusKaryawan = gaji.getStatus();
+    Double tunjanganKaryawan = gaji.hitungTunjangan(statusKaryawan);
+    Double totalGaji = gaji.setTotal();
     System.out.println("\n========Hasil Perhitungan Gaji Anda========");
     System.out.printf("Gaji Pokok\t\t: Rp %.1f%n",gajipokokKaryawan);
     System.out.printf("Tunjangan\t\t: Rp %.1f%n",tunjanganKaryawan);

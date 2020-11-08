@@ -5,6 +5,8 @@
  */
 package pb010119913latihan35;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Lenovo
